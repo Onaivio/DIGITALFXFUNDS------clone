@@ -1,0 +1,715 @@
+
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.mainmenu ul li a {
+		padding: 31px 10px
+	}
+	.wallet-btn>a {
+		text-align: center;
+		padding: 7px 10px
+	}
+	.choose-text>h3 {
+		font-size: 17px
+	}
+	.blog-post-text h3 {
+		font-size: 16px
+	}
+	.subscibe-box>form {
+		width: 70%
+	}
+	.blog-sidebar-widget>form {
+		padding: 10px
+	}
+	.blog-thumb-info-image {
+		width: 100%;
+		margin-bottom: 10px
+	}
+	.blog-thumb-info-content {
+		float: none;
+		width: 100%
+	}
+	.product-button>a {
+		margin-right: 2px;
+		padding: 5px 7px
+	}
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.sitelogo img {
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 40%;
+	}
+	.mainmenu ul {
+		text-align: left
+	}
+	.mainmenu ul li a {
+		padding: 31px 10px
+	}
+	.cryptobase-main-slide {
+		height: 420px
+	}
+	.about-right>img {
+		width: 100%;
+	}
+	.slider-text {
+		width: 90%
+	}
+	.slider-text h2 {
+		font-size: 40px
+	}
+	.calculator-box {
+		margin-top: -50px
+	}
+	.calculator-left {
+		margin-top: 30px
+	}
+	.about-right {
+		margin-top: 30px
+	}
+	.popup-youtube {
+		left: 45%
+	}
+	.single-choose,
+	.single-plan-box,
+	.single-blog-post,
+	.single-service {
+		margin: 0 80px 30px
+	}
+	.get-project-right {
+		margin-top: 17px
+	}
+	.currency-price-right {
+		margin-top: 30px
+	}
+	.subscibe-box>form {
+		width: 80%
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.about-page-right-img>img,
+	.abt-big-img>img {
+		width: 100%
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.no-pad-left {
+		padding-left: 15px
+	}
+	.single-service-image>.row>.no-pad-right {
+		padding-right: 0
+	}
+	.cryptobase-how-works-area:before,
+	.cryptobase-abt-overlay {
+		display: none
+	}
+	.youtube-text-2 {
+		display: none
+	}
+	.cryptobase-how-works-wrap {
+		float: none;
+		width: 100%
+	}
+	.about-service-right {
+		margin-top: 30px
+	}
+	.margin-top {
+		margin-top: 50px
+	}
+	.team_img_overlay_1 {
+		border-width: 0 290px 125px 0
+	}
+	.single-team {
+		margin: 0 30px 30px
+	}
+	.notfound-left {
+		display: none
+	}
+	.notfound-right {
+		margin-top: 0;
+		text-align: center
+	}
+	.notfound-right h1 {
+		font-size: 115px
+	}
+	.single-product-text {
+		padding: 10px
+	}
+	.product-button>a {
+		margin-right: 2px
+	}
+	.blog-sidebar-widget ul.instagram>li {
+		width: 10%
+	}
+	.cryptobase-login-page-area:before {
+		left: 42%
+	}
+	.cryptobase-login-page-area:after {
+		width: 45%
+	}
+	.cryptobase-contact-form-right {
+		margin-top: 50px
+	}
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+	.header-top-left {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.header-top-right {
+		text-align: center;
+	}
+	.header-top-right>p {
+		margin: 8px 2px;
+	}
+	.sitelogo img {
+		width: 60%
+	}
+	.cryptobase-responsive-menu {
+		display: block
+	}
+	.mainmenu {
+		display: none
+	}
+	.wallet-btn {
+		display: none
+	}
+	.menu-span {
+		display: none !important
+	}
+	.cryptobase-main-slide {
+		height: 400px
+	}
+	.slider-text {
+		width: 100%
+	}
+	.slider-text h2 {
+		font-size: 26px;
+		line-height: 36px
+	}
+	.calculator-box {
+		margin-top: -50px
+	}
+	.calculator-left {
+		margin-top: 15px
+	}
+	.about-left>h2 {
+		font-size: 24px
+	}
+	.about-right {
+		display: none
+	}
+	.get-project-left>h3 {
+		font-size: 21px;
+		line-height: 30px;
+		text-align: center;
+		margin-top: 0
+	}
+	.get-project-right {
+		text-align: center;
+		margin-top: 20px
+	}
+	.site-heading>h2,
+	.site-heading-white>h2 {
+		font-size: 25px
+	}
+	.site-heading>h2:after,
+	.site-heading-white>h2:after {
+		display: none
+	}
+	.site-heading>h2:before,
+	.site-heading-white>h2:before {
+		display: none
+	}
+	.choose-icon {
+		height: 50px;
+		width: 50px;
+		line-height: 50px
+	}
+	.choose-text>h3 {
+		font-size: 18px
+	}
+	.currency-price-left>h2 {
+		font-size: 24px
+	}
+	.currency-price-right {
+		margin-top: 30px
+	}
+	.currency-price-right table td img {
+		display: block;
+		margin-top: 5px
+	}
+	.cryptobase-testimonial-area .single-testimonial-item:before {
+		bottom: 30px;
+		right: 55px;
+		font-size: 35px
+	}
+	.subscibe-box>h2 {
+		font-size: 22px
+	}
+	.subscibe-box>form {
+		width: 100%
+	}
+	.subscibe-box form button {
+		width: 40%
+	}
+	.subscibe-box form input {
+		width: 60%
+	}
+	.breadcromb-top-text>h2 {
+		font-size: 30px
+	}
+	.about-page-left-para>h2 {
+		font-size: 24px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.about-page-right-img>img {
+		width: 100%
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.no-pad-right {
+		padding-left: 15px
+	}
+	.abt-big-img {
+		margin-top: 15px
+	}
+	.cryptobase-how-works-area:before,
+	.cryptobase-abt-overlay {
+		display: none
+	}
+	.youtube-text-2 {
+		display: none
+	}
+	.cryptobase-how-works-wrap {
+		width: 100%;
+		padding: 0
+	}
+	.cryptobase-how-works-wrap>h2 {
+		font-size: 24px
+	}
+	.investor-slide:hover .owl-next {
+		right: 0
+	}
+	.investor-slide:hover .owl-prev {
+		left: 0
+	}
+	.single-service-right h3 {
+		font-size: 18px
+	}
+	.about-service-right {
+		margin-top: 20px
+	}
+	.about-service-right>ul {
+		width: 100%;
+		float: none
+	}
+	.margin-top {
+		margin-top: 50px
+	}
+	.team_img_overlay_1 {
+		border-width: 0 295px 125px 0
+	}
+	.cryptobase-single-faqs>h3 {
+		display: inline
+	}
+	.cryptobase-faqs-right>form {
+		padding: 30px
+	}
+	.notfound-left {
+		display: none
+	}
+	.notfound-right {
+		text-align: center;
+		margin: 0
+	}
+	.notfound-right h1 {
+		font-size: 80px
+	}
+	.notfound-right>h2 {
+		font-size: 18px;
+		font-family: 500
+	}
+	.cryptobase-login-page-area:before {
+		display: none
+	}
+	.cryptobase-login-page-area:after {
+		display: none
+	}
+	.login-left {
+		display: block;
+		text-align: center;
+		padding: 0
+	}
+	.login-left>h3,
+	.login-left>p {
+		color: #333
+	}
+	.login-left>p a {
+		color: #ff9606
+	}
+	.login-left>p a:hover {
+		color: #ff9606
+	}
+	.login-form {
+		width: 100%
+	}
+	.remember {
+		display: block;
+		text-align: center
+	}
+	.lost-pass {
+		display: block;
+		text-align: center;
+		float: none
+	}
+	.footer-logo img {
+		width: 70%
+	}
+	.login-left>h3 {
+		font-size: 24px
+	}
+	.shorting p {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.shorting form {
+		float: none;
+		text-align: center
+	}
+	.single-pro-page-desc {
+		margin-top: 20px
+	}
+	.coupon-cart-right {
+		text-align: center;
+		margin-top: 15px
+	}
+	.coupon-cart-left {
+		text-align: center
+	}
+	.blog-text>h2 {
+		font-size: 18px
+	}
+	.post-share-left {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.post-share-right {
+		text-align: center
+	}
+	.single-comment-box.reply-comment {
+		margin-left: 30px
+	}
+	.cryptobase-leave-comment input[type="text"],
+	.cryptobase-leave-comment input[type="email"] {
+		width: 100%
+	}
+	.cryptobase-leave-comment textarea {
+		width: 100%
+	}
+	.cryptobase-contact-form-right>form {
+		padding: 30px
+	}
+	.cryptobase-contact-form-right {
+		margin-top: 50px
+	}
+	.abt-big-img>img {
+		width: 100%
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	.header-top-left {
+		margin-bottom: 10px;
+		text-align: center;
+	}
+	.slicknav_btn {
+		margin-top: 15px;
+		margin-right: 20px
+	}
+	.header-top-right {
+		text-align: center;
+	}
+	.header-top-right>p {
+		margin: 8px 2px;
+	}
+	.sitelogo img {
+		width: 50%
+	}
+	.cryptobase-responsive-menu {
+		display: block
+	}
+	.mainmenu {
+		display: none
+	}
+	.wallet-btn {
+		display: none
+	}
+	.menu-span {
+		display: none !important
+	}
+	.cryptobase-main-slide {
+		height: 400px
+	}
+	.slider-text {
+		width: 100%
+	}
+	.slider-text h2 {
+		font-size: 26px;
+		line-height: 36px
+	}
+	.calculator-box {
+		margin-top: -50px
+	}
+	.calculator-left {
+		margin-top: 15px
+	}
+	.about-left>h2 {
+		font-size: 24px
+	}
+	.about-right {
+		display: none
+	}
+	.get-project-left>h3 {
+		font-size: 21px;
+		line-height: 30px;
+		text-align: center;
+		margin-top: 0
+	}
+	.get-project-right {
+		text-align: center;
+		margin-top: 20px
+	}
+	.site-heading>h2,
+	.site-heading-white>h2 {
+		font-size: 25px
+	}
+	.site-heading>h2:after,
+	.site-heading-white>h2:after {
+		display: none
+	}
+	.site-heading>h2:before,
+	.site-heading-white>h2:before {
+		display: none
+	}
+	.choose-icon {
+		height: 50px;
+		width: 50px;
+		line-height: 50px
+	}
+	.choose-text>h3 {
+		font-size: 18px
+	}
+	.currency-price-left>h2 {
+		font-size: 24px
+	}
+	.currency-price-right {
+		margin-top: 30px
+	}
+	.currency-price-right table td img {
+		display: block;
+		margin-top: 5px
+	}
+	.cryptobase-testimonial-area .single-testimonial-item:before {
+		bottom: 30px;
+		right: 55px;
+		font-size: 35px
+	}
+	.subscibe-box>h2 {
+		font-size: 22px
+	}
+	.subscibe-box>form {
+		width: 100%
+	}
+	.subscibe-box form button {
+		width: 40%
+	}
+	.subscibe-box form input {
+		width: 60%
+	}
+	.breadcromb-top-text>h2 {
+		font-size: 30px
+	}
+	.about-page-left-para>h2 {
+		font-size: 24px
+	}
+	.about-page-right {
+		margin-top: 30px
+	}
+	.about-page-right-img>img {
+		width: 100%
+	}
+	.no-pad-right {
+		padding-right: 15px
+	}
+	.no-pad-right {
+		padding-left: 15px
+	}
+	.abt-big-img {
+		margin-top: 15px
+	}
+	.cryptobase-how-works-area:before,
+	.cryptobase-abt-overlay {
+		display: none
+	}
+	.youtube-text-2 {
+		display: none
+	}
+	.cryptobase-how-works-wrap {
+		width: 100%;
+		padding: 0
+	}
+	.cryptobase-how-works-wrap>h2 {
+		font-size: 24px
+	}
+	.investor-slide:hover .owl-next {
+		right: 0
+	}
+	.investor-slide:hover .owl-prev {
+		left: 0
+	}
+	.single-service-right h3 {
+		font-size: 18px
+	}
+	.about-service-right {
+		margin-top: 20px
+	}
+	.about-service-right>ul {
+		width: 100%;
+		float: none
+	}
+	.margin-top {
+		margin-top: 50px
+	}
+	.team_img_overlay_1 {
+		border-width: 0 295px 125px 0
+	}
+	.cryptobase-single-faqs>h3 {
+		display: inline
+	}
+	.cryptobase-faqs-right>form {
+		padding: 30px
+	}
+	.notfound-left {
+		display: none
+	}
+	.notfound-right {
+		text-align: center;
+		margin: 0
+	}
+	.notfound-right h1 {
+		font-size: 80px
+	}
+	.notfound-right>h2 {
+		font-size: 18px;
+		font-family: 500
+	}
+	.cryptobase-login-page-area:before {
+		display: none
+	}
+	.cryptobase-login-page-area:after {
+		display: none
+	}
+	.login-left {
+		display: block;
+		text-align: center;
+		padding: 0
+	}
+	.login-left>h3,
+	.login-left>p {
+		color: #333
+	}
+	.login-left>p a {
+		color: #ff9606
+	}
+	.login-left>p a:hover {
+		color: #ff9606
+	}
+	.login-form {
+		width: 100%
+	}
+	.remember {
+		display: block;
+		text-align: center
+	}
+	.lost-pass {
+		display: block;
+		text-align: center;
+		float: none
+	}
+	.footer-logo img {
+		width: 60%
+	}
+	.abt-big-img>img {
+		width: 100%
+	}
+	.login-left>h3 {
+		font-size: 24px
+	}
+	.shorting p {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.shorting form {
+		float: none;
+		text-align: center
+	}
+	.single-pro-page-desc {
+		margin-top: 20px
+	}
+	.coupon-cart-right {
+		text-align: center;
+		margin-top: 15px
+	}
+	.coupon-cart-left {
+		text-align: center
+	}
+	.blog-text>h2 {
+		font-size: 18px
+	}
+	.post-share-left {
+		text-align: center;
+		margin-bottom: 10px
+	}
+	.post-share-right {
+		text-align: center
+	}
+	.single-comment-box.reply-comment {
+		margin-left: 30px
+	}
+	.cryptobase-leave-comment input[type="text"],
+	.cryptobase-leave-comment input[type="email"] {
+		width: 100%
+	}
+	.cryptobase-leave-comment textarea {
+		width: 100%
+	}
+	.cryptobase-contact-form-right>form {
+		padding: 30px
+	}
+	.cryptobase-contact-form-right {
+		margin-top: 50px
+	}
+	.single-team {
+		margin: 0 90px 30px
+	}
+}
+

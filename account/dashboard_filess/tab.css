@@ -1,0 +1,164 @@
+/*FAQ*/
+.heading-primary {
+	padding: 2em;
+	text-align: center;
+}
+.accordion dl, .accordion-list {
+	border: 0;
+ &:after {
+ content: "";
+ display:block;
+ height:1em;
+ width:100%;
+ background-color:darken(#38cc70, 10%);
+}
+}
+.accordion dd, .accordion__panel {
+	line-height: 1.5em;
+	border-radius: 0;
+	margin: 0;
+}
+.accordion p {
+	padding: 1em 2em 6px 1em;
+	font-size:14px;
+	background: rgba(0, 0, 0, 0.14);
+	color: #eee;
+	border-radius: 4px;
+}
+.accordion {
+	position: relative;
+}
+.accordionTitle, .accordion__Heading {
+	background: #09165f; /* Old browsers */
+	color: #eee;
+	font-size:15px;
+	border: 1px solid #252eef;
+	text-align: left;
+	font-weight: 400;
+	padding: 1em;
+	text-align: left;
+	text-indent: 0;
+	display: block;
+	border-radius: 4px;
+	text-decoration: none;
+	transition: background-color 0.1s ease-in-out;
+	margin-bottom: 8px;
+ &:before {
+	content: "+";
+	line-height:0.5em;
+	float:left;
+	transition: transform 0.1s ease-in-out;
+}
+ &:hover {
+	background-color:darken(#f6be38, 10%) !important;
+	color:#fff !important;}
+}
+.accordionTitle:hover, .accordion__Heading:hover {
+	background-color: #ff0f37;
+	color: #fff !important
+}
+.accordionTitle:hover a, .accordion__Heading:hover a {
+	color: #fff !important
+}
+.accordionTitle a:hover, .accordion__Heading a:hover {
+	color: #fff !important
+}
+.accordionTitle:before, .accordion__Heading:before {
+	display:none;
+	background: url(https://www.digitalfxfunds.com/account/dashboard_filess/images/faq_plus.html) no-repeat scroll left center;
+	line-height: 24px;
+	width: 34px;
+	height: 24px;
+	text-align: left;
+	content: "";
+	float: left;
+	-webkit-transition: -webkit-transform 0.1s ease-in-out;
+	transition: -webkit-transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out;
+	transition: transform 0.1s ease-in-out, -webkit-transform 0.3s ease-in-out;
+	position: relative;
+	top: -2px;
+	left: 4px;
+}
+.accordionTitleActive:before, .accordionTitle.is-expanded:before {
+	background: url(https://www.digitalfxfunds.com/account/dashboard_filess/images/faq_minus.html) no-repeat scroll left center;
+	top: -2px;
+	content: "";
+}
+.accordionTitleActive, .accordionTitle.is-expanded {
+	background-color: darken(#38cc70, 10%);
+ &:before {
+ transform:rotate(-225deg);
+}
+}
+.accordionItem {
+	height: auto;
+	overflow: hidden;
+ //SHAME: magic number to allow the accordion to animate max-height:50em;
+	transition: max-height 1s;
+ @media screen and (min-width:48em) {
+ max-height:15em;
+ transition:max-height 0.5s
+}
+}
+.accordionItem.is-collapsed {
+	max-height: 0;
+}
+.no-js .accordionItem.is-collapsed {
+	max-height: auto;
+}
+.animateIn {
+	animation: accordionIn 0.3s normal ease-in both 1;
+}
+.animateOut {
+	animation: accordionOut 0.3s alternate ease-in both 1;
+}
+@keyframes accordionIn {
+ 0% {
+ opacity: 0;
+ transform:scale(0.9) rotateX(-60deg);
+ transform-origin: 50% 0;
+}
+ 100% {
+ opacity:1;
+ transform:scale(1);
+}
+}
+ @keyframes accordionOut {
+ 0% {
+ opacity: 1;
+ transform:scale(1);
+}
+ 100% {
+ opacity:0;
+ transform:scale(0.9) rotateX(-60deg);
+}
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+.cd-tabs-content {
+	width: 76%
+}
+}
+.accordion a:focus, .accordion a:hover {
+	color: #fff !important;
+	text-decoration: none !important;
+}
+.cd-tabs-navigation a:focus, .cd-tabs-navigation a:hover {
+	text-decoration: none !important;
+}
+.thblock > p {
+	border-bottom: 1px solid #ececec;
+	padding-bottom: 25px;
+	float: left;
+	width: 100%
+}
+.accordion dl:focus, .accordion dl a:focus {
+ border:0px !igmportant;
+	outline: none !important
+}
+a.is-collapsed.is-expanded {
+	background-color: #ff0f37 !important;
+	color: #fff !important;
+	border-radius: 4px;
+	border: 1px solid #f15a73;
+}
